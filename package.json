@@ -1,0 +1,22 @@
+{
+  "name": "xchange-international",
+  "version": "1.0.0",
+  "description": "where international students exchange ideas",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "xchange",
+    "exchange",
+    "international"
+  ],
+  "author": "begO",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
