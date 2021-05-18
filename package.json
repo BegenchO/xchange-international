@@ -4,7 +4,8 @@
   "description": "where international students exchange ideas",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js"
+    "start": "NODE_ENV=production node backend/server",
+    "dev": "nodemon backend/server"
   },
   "keywords": [
     "xchange",
@@ -14,6 +15,7 @@
   "author": "begO",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^9.0.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
